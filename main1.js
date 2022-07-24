@@ -21,10 +21,13 @@ let b3 = '100';
 let c3 = true;
 console.log(typeof a3, typeof b3, typeof c3);
 
-let inputA = prompt();
-let inputB = prompt();
-let inputC = prompt();
-console.log(inputA, inputB, inputC);
+let inputName = prompt('Your_Name');
+let inputLastname = prompt('Your_Lastname');
+let inputAge = +prompt('Your_Age');
+console.log(inputName);
+console.log(inputLastname);
+console.log(inputAge);
+
 
 
 
